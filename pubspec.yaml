@@ -1,0 +1,37 @@
+name: cute_profit_gis
+description: A GIS application for data collection and visualization.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  google_maps_flutter: ^2.5.0
+  image_picker: ^1.0.4
+  file_picker: ^6.1.1
+  path_provider: ^2.1.1
+  intl: ^0.18.1
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  geolocator: ^10.1.0
+  google_fonts: ^6.1.0
+  fl_chart: ^0.66.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
